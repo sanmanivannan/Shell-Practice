@@ -1,0 +1,15 @@
+Kernal
+
+
+How the OS is loaded??
+
+Linux is loaded in the following order
+
+1. BIOS
+
+2. GRUB
+
+3. KERNAL file
+
+4. INIT file
+

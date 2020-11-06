@@ -1,0 +1,43 @@
+TAR and ZIPPING
+
+tar - an archiving utility
+
+SYNOPSIS
+   Traditional usage
+       tar {A|c|d|r|t|u|x}[GnSkUWOmpsMBiajJzZhPlRvwo] [ARG...]
+
+   UNIX-style usage
+       tar -A [OPTIONS] ARCHIVE ARCHIVE
+
+       tar -c [-f ARCHIVE] [OPTIONS] [FILE...]
+
+       tar -d [-f ARCHIVE] [OPTIONS] [FILE...]
+
+       tar -t [-f ARCHIVE] [OPTIONS] [MEMBER...]
+
+       tar -r [-f ARCHIVE] [OPTIONS] [FILE...]
+
+       tar -u [-f ARCHIVE] [OPTIONS] [FILE...]
+
+       tar -x [-f ARCHIVE] [OPTIONS] [MEMBER...]
+
+creating the tar file
+===================================
+
+
+tar -cvf <new_tar_file_name.tar> /directory_name
+
+
+extracting the tar file
+=====================================
+
+tar -xvf <exiting_tar_file.tar> .
+
+
+
+Zipping the Tar file
+=======================================
+
+tar -zcvf <new_tar_file_name.tar.gz>
+
+

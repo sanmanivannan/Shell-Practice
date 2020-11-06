@@ -1,0 +1,35 @@
+TCP vs UDP
+
+TCP - Transmission Control Protocol
+=====================================
+The communication between two computers needs to be GOOD and RELIABLE to grantee that the data is received correctly
+
+Its the Connection Oriented Protocol
+
+Establishing the Connection between 2 systems by 3 steps
+1. SYN
+2. SYN ACK
+3. ACK received
+
+UDP - User Datagram Protocol
+================================
+
+Its the connectionless oriented Protocol
+
+Fire and Forgets- it doesnt Acknolwdge the whether the data is sent/received
+
+UDP is faster that TCP
+
+
+
+
+
+Structure of the packet
+=========================
+1. Application layer - HTTP/HTTPS
+2. Transport layer - TCP/UDP
+3. Network layer - IP
+4. Link layer - Ethernet/WIFI
+5. Physical layer - COAXIAL/OPTICAL FIBER
+
+

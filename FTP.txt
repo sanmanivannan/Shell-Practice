@@ -1,0 +1,29 @@
+FTP
+======
+
+ftp <URL/IP>
+UserId will be prompted, provide the user UserId
+password will be prompted, provide the password
+
+Once, the credentials are validated, you will be let In the server and Ftp prompt will appear
+
+for listing the contents of the sever use 
+ftp> ls
+
+
+If you want to receive the contenets from the remote server to your local use mget command
+
+ftp>mget <filename.txt>
+
+If you want to transfer the file from local to remote server
+ftp>put <filename.txt?
+
+to rename the name of the file on the remote file
+ftp> rename <old_filename.txt> <new_filename.txt>  
+
+
+to delete the file from the remote ftp server
+ftp> delete <filename.txt>
+
+to exit from the ftp remote server
+ftp>bye

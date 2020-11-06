@@ -1,0 +1,19 @@
+package manager
+
+Ubuntu/Mint/Debaian flavours 
+
+apt-get
+
+apt
+
+apt-cache
+
+
+Redhat/Cent
+
+yum
+
+dnf
+
+rpm
+
