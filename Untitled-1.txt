@@ -1,0 +1,30 @@
+bashrc, bash_profile/ profile, bash_login, bash_logout, bash_history
+
+LOGIN SHELL
+When every you try to login as a USER in the Linux, there files are checked by this order
+==========================================================================================
+
+1. /etc/profile
+2. ~/.bash_profile
+3. ~/.profile
+4. ~/.bash_login (usuyally cant be seen on the terminal)
+
+
+~/.bash_profile or ~/.profile
+==============================
+1. These files are check only once when we new log into a SHELL
+
+2. Environment Variable and Alias details can be written on this files
+
+
+NON_LOGIN SHELL
+When ever a new shell session is created it checked the ~/.bashrc file
+============================================================================
+
+This file contains basic and regularly used SHELLs in this file such as color, autotabfilling etc.,
+
+
+
+
+
+

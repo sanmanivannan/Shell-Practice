@@ -1,0 +1,17 @@
+NETSTAT
+
+NETSTAT Command will list out the TCP, UDP sockets connections and also check the PORTS
+
+Interactive, Extended
+========================
+netstat -ie
+
+All
+=====
+netstat -a
+
+List TCp,UDP PORTS
+======================
+netstat -tu
+
+

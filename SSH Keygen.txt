@@ -1,0 +1,10 @@
+SSH Keygen
+
+commands
+==================
+ssh-keygen
+
+Provide the name of the key(optional) if needed, and pass phrase is also optional
+
+After hitting this, both private and public keys will be genrated usually in the home/<user> directory
+
