@@ -113,6 +113,22 @@ SYNOPSIS
        -y     Obsolete synonym for -i.
 ===================================================================================================================================================
 
+
+FIND(1)                                                                                                 General Commands Manual                                                                                                 FIND(1)
+
+NAME
+       find - search for files in a directory hierarchy
+
+SYNOPSIS
+       find [-H] [-L] [-P] [-D debugopts] [-Olevel] [starting-point...] [expression]
+
+
+EXAMPLE:
+
+find <directory where we need top find the file(s)> -type f -name <name of the flie which needds to be found>
+
+
+================================================================================================================
 ln - 
 
 In the 1st form, create a link to TARGET with the name LINK_NAME.  In the 2nd form, create a link to TARGET in the current directory.  In the 3rd and 4th forms, 
