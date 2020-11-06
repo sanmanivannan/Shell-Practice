@@ -18,7 +18,8 @@ DESCRIPTION
        curl is powered by libcurl for all transfer-related features. See libcurl(3) for details.
 
 cURL commands
-======================
+=============
+
 GET options only
 ----------------------------------
 only response

@@ -1,5 +1,5 @@
-FTP
-======
+FTP PORT-21 using TCP
+======================
 
 ftp <URL/IP>
 UserId will be prompted, provide the user UserId
@@ -27,3 +27,15 @@ ftp> delete <filename.txt>
 
 to exit from the ftp remote server
 ftp>bye
+
+
+SFTP - Secure File Transfer Protocal   PORT-22 uses TCP
+==========================================================
+
+
+
+TFTP - Trivial File Transfer Protocal - PORT - 69  usees UDP(not a realiable and unsecured)
+====================================================
+
+
+

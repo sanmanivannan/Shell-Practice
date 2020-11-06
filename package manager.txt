@@ -1,6 +1,8 @@
 package manager
 
 Ubuntu/Mint/Debaian flavours 
+====================================
+
 
 apt-get
 
@@ -10,6 +12,8 @@ apt-cache
 
 
 Redhat/Cent
+==============================
+
 
 yum
 
